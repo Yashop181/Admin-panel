@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .app-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .user-info {
+    text-align: center; /* Center the text in user-info */
+    margin-bottom: 20px; /* Increase margin for better spacing */
+  }
+  
+  .user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .nav-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    color: black; /* Set text color for better visibility */
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .nav-links a:hover {
+    background-color: royalblue;
+    color: white;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  
+  .sidebar {
+    width: 20%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    height: 100vh; /* Set sidebar height to 100% of viewport height */
+  }
+  
+  .user {
+    width: 30%;
+  }
